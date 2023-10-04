@@ -9,7 +9,10 @@
 dartReuslt 문자열에서 문자 하나씩 확인 하기 위하여 배열로 변환이 필요 하였는데
 charAt 과 for 문을 활용하여 char 배열을 생성 할 수도 있었지만 
 String 클래스의 spilt 매서드(.split(""))를 활용 하여 손쉽게 String 배열을 얻을 수 있었다.
-
+예시 코드
+```java
+String[] dart = dartResult.split("");
+```
 ### Point 2 : switch - case 의 문법 실수
 
 실수 문법
